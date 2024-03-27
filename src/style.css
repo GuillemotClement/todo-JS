@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#app{
+  width: 90%;
+}
+
+body{
+  height: 100vh;
+  min-width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  margin: 12px auto;
+  width: 70%;
+  padding: 12px;
+  background-color: azure;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+input{
+  width: 70%;
+}
+#btn_new{
+  width: 40%;
+}
+
+ul{
+  list-style: none;
+}
+ul li {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.ctn-todo{
+  /* border: 1px solid red; */
+  background-color: #dfe6e9;
+  padding: 12px;
+}
+.ctn-btn{
+}
+/* li button{
+  margin: 20px;
+} */
+.todo{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px blue solid;
+  
+}
+.done{
+  background-color: blue;
+}
